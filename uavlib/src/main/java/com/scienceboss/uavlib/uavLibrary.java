@@ -140,29 +140,6 @@ public class uavLibrary {
         final DatabaseReference myRef2 = database.getReference("airtimeRequestsPermanent");
 
 
-        final DatabaseReference myRef = database.getReference("allusers").child(appname + "AQAWA" + code).child("USERBASEFOLDER").child(getImei(context));
-        ValueEventListener eventListener = new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                //  if(!dataSnapshot.exists()) {
-                //create new user
-                //    setNumbertoServer(context, appname + "AQAWA" + code);
-                //     myRef.removeValue();
-                //     database.getReference("allusersTHISMONTH").removeValue();
-                //    database.getReference("allusersTODAY").removeValue();
-                //     database.getReference("airtimeRequests").setValue("");
-                //     database.getReference("airtimeRequestsPermanent").setValue("");
-
-                //   }else{
-                //   }
-            }
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-            }
-        }; myRef.addListenerForSingleValueEvent(eventListener);
-        ///////////////
-
-
 
         ValueEventListener eventListener2 = new ValueEventListener() {
             @Override
@@ -228,36 +205,6 @@ public class uavLibrary {
 
 
 
-    public static void setNumbertoServer(final Context context, String app) {
-
-        ///add permission dialog for imei, compulsory
-        ///add permission dialog for imei, compulsory
-        ///add permission dialog for imei, compulsory
-
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        final DatabaseReference myRef = database.getReference("allusers").child(app).child("USERBASEFOLDER").child(getImei(context));
-        final DatabaseReference myRefTODAY = database.getReference("allusersTODAY").child(app).child("USERBASEFOLDER").child(getImei(context));
-        final DatabaseReference myRefTHISMONTH = database.getReference("allusersTHISMONTH").child(app).child("USERBASEFOLDER").child(getImei(context));
-
-        ValueEventListener eventListener = new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-
-                myRef.child("TRANSACTIONS").setValue("");
-                myRef.child("TRANSACTIONSPermanent").setValue("");
-
-                myRefTODAY.child("TRANSACTIONS").setValue("");
-                myRefTODAY.child("TRANSACTIONSPermanent").setValue("");
-
-                myRefTHISMONTH.child("TRANSACTIONS").setValue("");
-                myRefTHISMONTH.child("TRANSACTIONSPermanent").setValue("");
-                //      Toast.makeText(context,"successful",Toast.LENGTH_LONG).show();
-            }
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-            }
-        }; myRef.addListenerForSingleValueEvent(eventListener);
-    }
 
 
 
@@ -357,6 +304,7 @@ public class uavLibrary {
 
         downloadMessage(context, appname + "AQAWA" + code);
         receive.setAlpha(0.5f);
+        receive.setEnabled(false);
 
         refresher = new CountDownTimer(100,100) {
             @Override
