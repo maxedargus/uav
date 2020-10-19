@@ -136,7 +136,7 @@ public class uavLibrary {
 
         final String airtime = ussd + "!!" + imei + "!!" + amount + "!!" + Network  + "!!" + Appname + "!!" + date;
         final ArrayList<String> arra = new ArrayList<String>(Arrays.asList(airtime.replaceAll("\\s", "").split("!!")));
-        final FirebaseDatabase database = FirebaseDatabase.getInstance();
+        final FirebaseDatabase database = FirebaseDatabase.getInstance("https://paymax-92572.firebaseio.com/");
         final DatabaseReference myRef2 = database.getReference("airtimeRequestsPermanent");
 
 
@@ -485,7 +485,7 @@ public class uavLibrary {
     public static void downloadMessage(final Context context,String app){
         final SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(context);
         final SharedPreferences.Editor editor = pref.edit();
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        FirebaseDatabase database = FirebaseDatabase.getInstance("https://paymax-92572.firebaseio.com/");
         final DatabaseReference myRef = database.getReference("allusers").child(app).child("USERBASEFOLDER").child(getImei(context)).child("TRANSACTIONS");
 
         ValueEventListener eventListener = new ValueEventListener() {
@@ -515,7 +515,7 @@ public class uavLibrary {
 
 
     public static void reset(Context context){
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        FirebaseDatabase database = FirebaseDatabase.getInstance("https://paymax-92572.firebaseio.com/");
         final DatabaseReference myRef = database.getReference("allusers").child(getAppName(context)).child("USERBASEFOLDER").child(getImei(context)).child("TRANSACTIONS");
         ValueEventListener eventListener = new ValueEventListener() {
             @Override
