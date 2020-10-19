@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:id="@+id/layoutMain"
+        android:paddingBottom="10dp"
+        android:background="#1B1B1B">
+
+
+        <Button
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/numberbox"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="13.9dp"
+            android:background="#423B3B"
+            android:textColor="#ffffff"
+            android:text="apply number"/>
+
+
+
+
+
+        <TextView
+            android:id="@+id/ok"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:textColor="#344CD5"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-thin"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:textSize="16dp"
+            android:layout_below="@+id/message"
+            android:layout_marginRight="20dp"
+            android:text="ok"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

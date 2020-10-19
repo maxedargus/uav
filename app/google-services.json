@@ -1,0 +1,270 @@
+{
+  "project_info": {
+    "project_number": "36205867460",
+    "firebase_url": "https://paymax-92572.firebaseio.com",
+    "project_id": "paymax-92572",
+    "storage_bucket": "paymax-92572.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36205867460:android:e4912d6ab287e7b20ff491",
+        "android_client_info": {
+          "package_name": "com.scienceboss.airtimepay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36205867460-a0ue3amo9so23qeqvvnri7tg525grdoq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scienceboss.airtimepay",
+            "certificate_hash": "8bccce58bad61bc3d9158a5612b7c29c9a0a37f9"
+          }
+        },
+        {
+          "client_id": "36205867460-hnneam4h8sph0bqfs5uvtgbioldq9pl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgv7XEVkCTEg0LwP74UsXDiWp-ePHJpiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36205867460-hnneam4h8sph0bqfs5uvtgbioldq9pl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36205867460:android:a3ba1e583f3cd0d90ff491",
+        "android_client_info": {
+          "package_name": "com.scienceboss.paymax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36205867460-6sd9dl3iq0svio1lvmhrupqdujoplfca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scienceboss.paymax",
+            "certificate_hash": "8bccce58bad61bc3d9158a5612b7c29c9a0a37f9"
+          }
+        },
+        {
+          "client_id": "36205867460-hnneam4h8sph0bqfs5uvtgbioldq9pl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgv7XEVkCTEg0LwP74UsXDiWp-ePHJpiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36205867460-hnneam4h8sph0bqfs5uvtgbioldq9pl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36205867460:android:3737a59c7f319f150ff491",
+        "android_client_info": {
+          "package_name": "com.scienceboss.paymaxdashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36205867460-23oa5pe4mg1crmnptpmb8vid05knaiqp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scienceboss.paymaxdashboard",
+            "certificate_hash": "8bccce58bad61bc3d9158a5612b7c29c9a0a37f9"
+          }
+        },
+        {
+          "client_id": "36205867460-hnneam4h8sph0bqfs5uvtgbioldq9pl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgv7XEVkCTEg0LwP74UsXDiWp-ePHJpiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36205867460-hnneam4h8sph0bqfs5uvtgbioldq9pl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36205867460:android:ca7cc71cb26e44c70ff491",
+        "android_client_info": {
+          "package_name": "com.scienceboss.paymaxserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36205867460-b56nltv0078ie367sgh8t300g2p9vtbg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scienceboss.paymaxserver",
+            "certificate_hash": "8bccce58bad61bc3d9158a5612b7c29c9a0a37f9"
+          }
+        },
+        {
+          "client_id": "36205867460-hnneam4h8sph0bqfs5uvtgbioldq9pl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgv7XEVkCTEg0LwP74UsXDiWp-ePHJpiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36205867460-hnneam4h8sph0bqfs5uvtgbioldq9pl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36205867460:android:000278164de58fa80ff491",
+        "android_client_info": {
+          "package_name": "com.scienceboss.payproof"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36205867460-shn2bvahiiift2mkfet9blncls2m2n24.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scienceboss.payproof",
+            "certificate_hash": "8bccce58bad61bc3d9158a5612b7c29c9a0a37f9"
+          }
+        },
+        {
+          "client_id": "36205867460-hnneam4h8sph0bqfs5uvtgbioldq9pl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgv7XEVkCTEg0LwP74UsXDiWp-ePHJpiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36205867460-hnneam4h8sph0bqfs5uvtgbioldq9pl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36205867460:android:7c9b8d27a8f72e320ff491",
+        "android_client_info": {
+          "package_name": "com.scienceboss.sampleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36205867460-h76kk5v3i02bgrlfmkjdors2v0fb2ovn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scienceboss.sampleapp",
+            "certificate_hash": "8bccce58bad61bc3d9158a5612b7c29c9a0a37f9"
+          }
+        },
+        {
+          "client_id": "36205867460-hnneam4h8sph0bqfs5uvtgbioldq9pl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgv7XEVkCTEg0LwP74UsXDiWp-ePHJpiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36205867460-hnneam4h8sph0bqfs5uvtgbioldq9pl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36205867460:android:8c11ce840326b5f40ff491",
+        "android_client_info": {
+          "package_name": "com.scienceboss.uav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36205867460-3ueb41anvpg5hpqhr2ltnsfh95prt31q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scienceboss.uav",
+            "certificate_hash": "8bccce58bad61bc3d9158a5612b7c29c9a0a37f9"
+          }
+        },
+        {
+          "client_id": "36205867460-hnneam4h8sph0bqfs5uvtgbioldq9pl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgv7XEVkCTEg0LwP74UsXDiWp-ePHJpiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36205867460-hnneam4h8sph0bqfs5uvtgbioldq9pl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

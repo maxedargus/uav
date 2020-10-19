@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:id="@+id/layoutMain"
+        android:paddingBottom="10dp"
+        android:background="#1B1B1B">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#717171"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-thin"
+            android:textStyle="bold"
+            android:textSize="13.9dp"
+            android:layout_marginBottom="10dp"
+            android:text="Fill in recharge card details"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:textAllCaps="false"
+            android:text="help"
+            android:id="@+id/help"
+            android:textSize="12dp"
+            android:background="@drawable/butsshape"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/text"/>
+
+
+
+            <Spinner
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text"
+                android:id="@+id/network"/>
+
+
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/network"
+            android:id="@+id/amountt"/>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/amountt"
+            android:inputType="number"
+            android:textColorHint="#616161"
+            android:hint="main digits"
+            android:textColor="#ffffff"
+            android:digits="0123456789"
+            android:id="@+id/ussdcode"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="serial number (first 4 digits)"
+            android:maxLength="4"
+            android:textColorHint="#616161"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/ussdcode"
+            android:id="@+id/serialcode"/>
+
+
+
+
+
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/serialcode"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="13.9dp"
+            android:background="@drawable/butsshape2"
+            android:textColor="#ffffff"
+            android:text="send"/>
+
+
+
+
+
+        <TextView
+            android:id="@+id/close"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:textColor="#ff0000"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-thin"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:textSize="16dp"
+            android:layout_below="@+id/send"
+
+            android:text="close"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
